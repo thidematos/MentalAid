@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+:root{
+    --primary1: #5AAE86;
+    --primary2:#359366;
+    --primary3: #1D8050;
+    --primary4:#0C683C;
+    --primary5:#004B27;
+
+    --secundary1: #5883A0;
+    --secundary2: #366787;
+    --secundary3: #205475;
+    --secundary4:#104060;
+    --secundary5:#042B45;
+
+    --terciary1:#A9E075;
+    --terciary2:#80BE45;
+    --terciary3:#63A525;
+    --terciary4:#49860F;
+    --terciary5:#2F6000;
+
+    
+    --mainFont: 'Poppins', Arial, 'sans-serif';
+    --textFont: 'Noto Serif', times;
+    --HeadingFont: 'Lato';
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+header{
+    background-image: linear-gradient(to bottom, var(--secundary1), var(--secundary2));
+}
+
+header > h1{
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight:900;
+    font-family: var(--HeadingFont);
+    color: var(--terciary2);
+    text-shadow: 4px 3px 7px rgba(0, 0, 0, 0.277);
+    text-align: center;
+}
+
+header > h2{
+    font-family: var(--mainFont);
+}
