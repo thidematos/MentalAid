@@ -6,30 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>The Map of Me - Bússola</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="../global.css" type="text/css" />
-    <link rel="stylesheet" href="benefits.css" type="text/css" />
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   
-  <body >
-    
-    <header class="container">
-      <div id="logo">
-        <img src="logo1.png" alt="Logo Map Of Me">
-      </div>  
-      <div id="title">
-        <h2>O mundo de uma criança autista</h2>
-      </div>
-      <nav id="navegador">
-          <a href="#" class="link">A Jornada</a>
-          <a href="#" class="link">Bússola</a>
-          <a href="#" class="link">Exploradores</a>
-          <a href="#" >Se torne um aventureiro!</a>  
+  <body>
+    <header class="header">
+      <img src="assets/logo300.png" alt="" class="header_logo">
+      <h1 class="header_titulo">The Map of Me</h1>
+      <nav class="header_nav">
+        <img src="assets/Menu.svg" alt="" id="menu_hamb" onclick="clickMenu()">
+        <div id="itens_menu">
+          <ul class="menu_lista">
+            <li class="lista_li"><a href="#" class="nav_link">Home</a></li>
+            <li class="lista_li"><a href="#" class="nav_link">Jornada</a></li>
+            <li class="lista_li"><a href="#" class="nav_link">Exploradores</a></li>
+            <li class="lista_li">
+              <a href="#" class="nav_link-cta">Junte-se!</a>
+            </li>
+          </ul>
+        </div>      
       </nav>
     </header>
-    
-    <main>
-        <section>
-        </section>
+    <main class="main">
+      <section class="main_section">
+        <img src="assets/logo300.png" alt="Logo The Map of Me">
+        <h2 class="section_titulo">Transtorno do Espectro Autista (<strong class="section-strong">TEA</strong>)</h2>
+        <p class="section_paragrafo">A partir de uma visão abrangente do quadro clínico do <strong class="section-strong">Transtorno do Espectro Autista</strong>, considera-se que o atraso de desenvolvimento cognitivo está relacionado a três áreas:</p>
+          <ol class="section_lista">
+            <li class="section_lista_li">interação social</li>
+            <li class="section_lista_li">comunicação</li>
+            <li class="section_lista_li">imaginação</li>
+          </ol>
+        <p class="section_paragrafo">Apesar de incurável, os efeitos do atraso de desenvolvimento podem ser minimizados, por meio de exercícios que estimulem essas áreas mais afetadas.</p>
+        <p class="section_paragrafo">Crianças com TEA necessitam de um ambiente para aprendizado que seja definido por sua <strong class="section-strong">regularidade</strong>, <strong class="section-strong">repetitividade</strong>, <strong class="section-strong">previsibilidade</strong> e, enfim, por sua <strong class="section-strong">familiaridade</strong>. Essa necessidade é explicada pela peculiaridade das habilidades sensoriais das crianças com TEA: o seu espectro <strong class="section-strong">visual</strong> é muito mais sucessível (sensível) a intervenções e estímulos <a href="#">(CHONG, PUTNAM, 2008).</a></p>
+        <h3 class="section_subtitulo">Um grande aliado para a jornada: <br><em class="section_subtitulo-em">The Map of Me</em></h3>
+        <p class="section_paragrafo">Nesse sentido, o computador – e, mais especificamente, um jogo – se torna um aliado singular para o aprendizado dessas crianças. Uma das características fundamentais de um jogo é a sua previsibilidade: seu código regerá o ambiente e a experiência que será proposta ao usuário. Por meio dos jogos, é possível recriar ambientes “reais” que sejam controlados, visualmente interessantes e que prendam a atenção do jogador – elementos essenciais para se estabelecer uma interação proveitosa com a criança TEA. Além disso, o aprendizado por meio de um jogo de computador elimina as complexidades da interação social: a criança estabelecerá sua relação com o jogo em seu próprio ritmo.</p>
+        <h3 class="section_subtitulo">A palavra e as coisas: uma relação delicada</h3>
+        <p class="section_paragrafo">Conforme evidenciado por Putnam e Chong (2008), é estimado que a metade das pessoas diagnosticadas com TEA tenham falhas no desenvolvimento da linguagem funcional, expressos em atrasos da verbalização das primeiras palavras ou frases comunicativas. Diante disso, elegemos exercitar a capacidade comunicativa de nossos usuários. A linguagem e a fala são os primeiros sedimentos para a construção das trocas e interações sociais. Por meio destas, a criança constrói noções básicas de relação entre as coisas que existem. Por exemplo: a relação que existe entre o objeto maçã e a palavra “maçã”. Entretanto, as crianças com autismo possuem uma restrição interna para a compreensão de abstrações: sua compreensão e pensamento se baseiam em “elementos sensoriais brutos”, sobretudo os visuais. Conforme sugere Ruschival e Souza: “A criança se desenvolve na medida em que percebe as coisas, explora os ambientes e fornece respostas para os elementos presentes nesses locais de vivência” (RUSCHIVAL, SOUZA, 2013, p. 3).</p>
+        <h3 class="section_subtitulo">A <em>sua</em> Jornada: desbrave o mundo à sua volta!</h3>
+        <p class="section_paragrafo"> partir desses pressupostos, é plausível afirmar que o game poderá auxiliar no tratamento (ou minimização) dos efeitos do TEA. A montagem de quebra-cabeças, além de ser um rico estímulo e recurso visual, permite que as crianças autistas estimulem grandemente a memória e exercitem a agilidade e atividade mental, à medida que também incentiva a formação e/ou reforço de novas conexões cerebrais que estabeleçam as relações entre os objetos de seu entorno e suas respectivas abstrações.</p>
+        <p class="section_paragrafo">Ainda, o ato de montagem de quebra-cabeça pode auxiliar na autoconfiança e desenvolvimento das crianças com TEA. Segundo Silvia Zatz:  “montar quebra-cabeça é uma atividade intelectual que estimula a concentração, a criança fica mais atenta a detalhes e, com isso, aprende a virar a posição das peças e juntá-las” (ZATZ apud GIL, 2013, s/p). É difícil no início, mas a criança vai lidar com a frustração sabendo que se uma peça não servir naquele canto, pode encaixar em outro. Conforme já abordado, realizar uma tarefa que requer concentração é muito complicado para a criança autista. Mas, como a memória visual destas crianças é forte, o quebra-cabeça pode se tornar um ótimo passatempo. Além disso, se a atividade for feita de forma sistemática e rotineira, a criança poderá complexificar os conhecimentos adquiridos com o jogo, generalizando-os em ideias que possam ser aplicáveis a outros contextos, externos ao jogo. Enfim, a conquista de montar o quebra-cabeça também pode reduzir a ansiedade, pois é uma atividade que, à medida que as peças se encaixam, formam gradualmente um estímulo visual, uma figura que vai se tornando tangível.
+        </p>
+      </section>
     </main>
+
+    
+
+    <script>
+      function clickMenu(){
+        if (itens_menu.style.display == 'none') {
+          itens_menu.style.display = 'flex'
+        } else {
+          itens_menu.style.display = 'none'
+        }
+      }
+    </script>
   </body>
 </html>

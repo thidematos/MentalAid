@@ -1,0 +1,43 @@
+
+.main_section{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 3rem; 
+}
+
+.section_titulo{
+    font: 400 1.5rem var(--font);
+    color:black;
+    padding: 2rem 0;
+}
+
+.section-strong{
+    font-weight: 700;
+    color:#f76015;
+}
+
+.section_paragrafo{
+    font: 400 1em var(--font);
+    color:black;
+    text-align: justify;
+    padding: 1rem 0;
+}
+
+.section_lista{
+    list-style-position: inside;
+    padding: 1rem 0;
+}
+
+.section_lista_li{
+    font: 700 1em var(--font);
+}
+
+.section_subtitulo{
+    font: 700 1.3em var(--font);
+    padding: 2rem 0;
+}
+
+.section_subtitulo-em{
+    display:inline-block;
+    font: 700 2em var(--fontLogo);
+}
