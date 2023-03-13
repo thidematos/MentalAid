@@ -1,0 +1,33 @@
+.section_card{
+    display:flex;
+    flex-flow: row nowrap;
+    width: 80vw;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+.card_container{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 50%;
+}
+
+.container_conteudo{
+    font: 700 1rem var(--font);
+}
+
+.container_link{
+    display: block;
+    background-color: var(--cor1);
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--laranja);
+    font-weight: 700;
+}

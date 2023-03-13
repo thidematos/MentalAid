@@ -1,0 +1,52 @@
+.main_section_table{
+    width: 100%;
+	overflow-x: auto;	
+	display:flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+
+.section_table{
+	border-collapse: collapse;
+	background-color: white;
+
+}
+
+.table_caption{
+	background-color: var(--cor1);
+}
+.table_header{
+    padding: 0.5rem;
+
+}
+
+.table_data, .table_header{
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table_caption{
+	font: 700 1.5rem var(--font);
+    padding-bottom: 0.5rem;
+}
+.table_font{
+	display:block;
+	background-color: transparent;
+}
+
+
+
+/*Table
+    Caption
+        Texto direito, descrição
+    THead
+        tr, td, th (possui o atributo -- scope = "col" / "row")
+    Tbody
+        tr, td, th
+    TFoot
+        tr, td, th
+
+    colspan: 2 (um dado que ocupa duas colunas
+    rowspan: 2(um dado que ocupa 2 linhas)
+*/
