@@ -34,13 +34,13 @@
 
 @media screen and (min-width: 1024px) {
     .container_conteudo{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .card_container{
         height: 100%;
     }
     .container_link{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .conteudo_imagem{
         width: 12%;

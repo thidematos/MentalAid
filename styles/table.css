@@ -54,20 +54,20 @@
     }
 }
 
-@media screen and (min-width: 1600px){
+@media screen and (min-width: 1400px){
     .table_caption{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .table_header{
-        font-size: 2.3rem;
+        font-size: 1.6rem;
     }
 
     .table_data{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .table_font{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 /*Table

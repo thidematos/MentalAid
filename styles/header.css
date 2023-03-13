@@ -78,7 +78,7 @@
     
     .header_logo{
         display: block;
-        width: 30%;
+        width: 20%;
         height: 10%;
     }
 
@@ -132,17 +132,17 @@
     }
 }
 
-@media screen and (min-width:1600px) {
+@media screen and (min-width:1400px) {
     .header_titulo-1024{
         display:block;
-        font-size: 10rem;
+        font-size: 8rem;
     }
     .nav_link{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .nav_link-cta{
-        font-size: 5rem;
+        font-size: 3rem;
     }
     
 

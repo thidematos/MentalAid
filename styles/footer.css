@@ -77,9 +77,9 @@
     }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1400px) {
     .footer_titulo{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .footer_logo{
         font-size: 4rem;
