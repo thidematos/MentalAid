@@ -64,6 +64,16 @@ blockquote{
     display: none;
 }
 
+.container_section1600{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#cardfooter{
+    display:none;
+}
+
 @media screen and (min-width: 1024px){
     .section_logo{
         display: none;
@@ -103,5 +113,67 @@ blockquote{
     }
     blockquote{
         font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .section_titulo{
+        font-size: 3rem;
+    }
+
+    .section_subtitulo{
+        font-size: 2.8rem;
+    }
+
+    .section_paragrafo{
+        font-size: 2.5rem;
+    }
+
+    .section_lista_li{
+        font-size: 2.5rem;
+    }
+
+    .section_lista{
+        justify-content: space-around;
+    }
+
+    .container_section1600{
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 95vw;
+        gap: 2.5rem;
+    }
+
+    .section1600{
+        width: 90%;
+    }
+
+    blockquote{
+        font-size: 2.1rem;
+        width: 40%;
+    }
+
+    .section_quote-card{
+        width: 95vw;
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 3rem;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #cardfooter{
+        display: flex;
+        width: 40%;
+    }
+
+    #titlecard{
+        font-size: 1.4rem;
+    }
+
+    
+    #dsm{
+        width: 65%;
+        align-self: center;
     }
 }

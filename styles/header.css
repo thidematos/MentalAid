@@ -131,3 +131,19 @@
         font-size: 3.5rem;
     }
 }
+
+@media screen and (min-width:1600px) {
+    .header_titulo-1024{
+        display:block;
+        font-size: 10rem;
+    }
+    .nav_link{
+        font-size: 3rem;
+    }
+
+    .nav_link-cta{
+        font-size: 5rem;
+    }
+    
+
+}

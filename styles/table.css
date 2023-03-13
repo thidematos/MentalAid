@@ -54,6 +54,22 @@
     }
 }
 
+@media screen and (min-width: 1600px){
+    .table_caption{
+        font-size: 2.5rem;
+    }
+
+    .table_header{
+        font-size: 2.3rem;
+    }
+
+    .table_data{
+        font-size: 2rem;
+    }
+    .table_font{
+        font-size: 2rem;
+    }
+}
 /*Table
     Caption
         Texto direito, descrição
