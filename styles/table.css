@@ -14,6 +14,8 @@
 
 .table_caption{
 	background-color: var(--cor1);
+    font: 700 1.5rem var(--font);
+    padding-bottom: 0.5rem;
 }
 .table_header{
     padding: 0.5rem;
@@ -26,16 +28,31 @@
     vertical-align: middle;
 }
 
-.table_caption{
-	font: 700 1.5rem var(--font);
-    padding-bottom: 0.5rem;
-}
 .table_font{
 	display:block;
 	background-color: transparent;
 }
 
+@media screen and (min-width: 1024px) {
+    .main_section_table{
+        width: 98vw;
+        padding: 1.3rem 0;
+    }
+    .table_caption{
+        font-size: 2rem;
+    }
 
+    .table_header{
+        font-size: 1.8rem;
+    }
+
+    .table_data{
+        font-size: 1.5rem;
+    }
+    .table_font{
+        font-size: 1.5rem;
+    }
+}
 
 /*Table
     Caption

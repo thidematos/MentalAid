@@ -1,9 +1,15 @@
 .footer{
-    background-color: var(--cor4);
+    background-color: var(--cor3);
     width: 100vw;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    justify-content: center;
+}
+
+.footer_conteudo{
+    display:flex;
+    flex-flow: row nowrap;
     justify-content: center;
 }
 
@@ -19,4 +25,54 @@
     display: block;
     font: 700 2.5rem var(--fontLogo);
     color: white;
+}
+
+.footer_referencia{
+    display:none;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer_conteudo{
+        width: 20%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_titulo, .footerlogo{
+        font-size: 2rem;
+    }
+    .footer_referencia{
+        width: 80%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .referencia_lista{
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 1rem;
+    }
+    .lista_bloco{
+        width: 50%;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 1rem;
+        border-left: 2px solid white; 
+        padding: 0 1rem 1.5rem 1.5rem;
+    }
+
+    .footercolor{
+        color: white;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .item_link{
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 0.3rem 0;
+    }
 }

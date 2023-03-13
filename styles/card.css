@@ -31,3 +31,18 @@
     color: var(--laranja);
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+    .container_conteudo{
+        font-size: 1.8rem;
+    }
+    .card_container{
+        height: 100%;
+    }
+    .container_link{
+        font-size: 1.8rem;
+    }
+    .conteudo_imagem{
+        width: 12%;
+    }
+}

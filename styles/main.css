@@ -59,3 +59,49 @@ blockquote{
     border-radius: 1rem;
     font: 400 1.12rem var(--font)
 }
+
+.lista_imagem{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .section_logo{
+        display: none;
+    }
+
+    .section_titulo{
+        font-size: 2.5rem;
+    }
+
+    .section_subtitulo{
+        font-size: 2.3rem;
+    }
+
+    .section_paragrafo{
+        font-size: 2rem;
+    }
+
+    .section_lista_li{
+        font-size: 2rem;
+    }
+
+    .section_lista{
+        width: 95vw;
+        align-self: start;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    .lista_itens{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+    .lista_imagem{
+        display: block;
+    }
+    blockquote{
+        font-size: 1.6rem;
+    }
+}
